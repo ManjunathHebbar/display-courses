@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background-color: rgb(255, 254, 254);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.course-list-view{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  background-color:#001f3f;
+}
+
+.course-name{
+  color:white;
+  margin: 15px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  border-color: aliceblue;
+  box-shadow: 20px;
+  width: 250px;
+  list-style-type: none;
+}
+
+.contentAttributes{
+ font-family: 'Courier New', Courier, monospace;
+}
+
+.contentAttributes li{
+  list-style-type: none;
+}
+
+.contentAttributes li span{
+  font-weight: bold;
+  color: AQUA;
+}
+
+.searchBarAttributes{
+    border:5px solid AQUA;
+    margin-left:40%;
+    margin-right: 50%;
+    margin-top: 2%;
+}
